@@ -1,0 +1,16 @@
+train: /Users/wangzhan/Documents/Python/WRO/sugarcaneyumyum.v1i.yolov11/train/images  # path to training images
+val: /Users/wangzhan/Documents/Python/WRO/sugarcaneyumyum.v1i.yolov11/test/images   # path to validation images
+
+# Number of classes in your dataset
+nc: 2  # Replace with the actual number of classes in your dataset
+
+
+# Names of the classes
+names: ['fit', 'unfit']  # Replace with your actual class names
+
+roboflow:
+  workspace: ailoveai
+  project: sugarcaneyumyum
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ailoveai/sugarcaneyumyum/dataset/1

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['FIT', 'UNFIT']
+
+roboflow:
+  workspace: ailoveai
+  project: sugarcaneyumyum
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ailoveai/sugarcaneyumyum/dataset/1
